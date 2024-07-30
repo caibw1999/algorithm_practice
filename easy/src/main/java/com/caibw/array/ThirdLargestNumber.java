@@ -15,6 +15,6 @@ public class ThirdLargestNumber {
     }
     
     private static void thirdMax(int[] arr) {
-    
+        System.out.println("arr.length = " + arr.length);
     }
 }
