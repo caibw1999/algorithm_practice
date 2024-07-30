@@ -1,5 +1,7 @@
 package com.caibw.array;
 
+import java.util.Arrays;
+
 /**
  * @ClassName ThirdLargestNumber
  * @Package com.caibw.array
@@ -16,5 +18,6 @@ public class ThirdLargestNumber {
     
     private static void thirdMax(int[] arr) {
         System.out.println("arr.length = " + arr.length);
+        System.out.println("arr = " + Arrays.toString(arr));
     }
 }
